@@ -1,0 +1,1 @@
+<view id="project-container"><view class="status_bar"></view><view class="mySkill"><view class="skillList"><view class="tabIcon" wx:for="{{skillList}}" wx:for-item="item" wx:for-index="index">{{a}}</view></view><view></view><view></view></view></view>

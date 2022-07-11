@@ -1,0 +1,133 @@
+
+	#index-container{
+		background: #fff;
+	}
+	.headerData{
+		margin: 20rpx;
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0 0 5px 1px rgb(0 0 0 / 8%);
+		font-size: 28rpx;
+	}
+	.img{
+		width: 100%;
+		display: flex;		
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.headerImg{
+		width: 200rpx;
+		height: 200rpx;
+		margin: 10px;
+	}
+	.headerImg image{
+		width: 100%;
+		height: 100%;
+		border-radius: 50% 50%;
+	}
+	.headerData view{
+		text-align: center;
+		padding: 0rpx 0rpx 10rpx 0rpx;
+	}
+	.myData {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		margin: 30rpx;
+		font-size: 24rpx;
+	}
+	.myItem{
+		display: flex;
+	}
+	.myItem view{
+		flex: 1;
+	}
+	.banner{
+		width: 100%;
+		overflow: hidden;
+		border-radius: 12upx;
+		margin: 0 0 10upx;
+		image{
+			border-radius: 12upx;
+			width: 100%;
+			display: block;
+		}
+	}
+	
+	.content_introduce{
+		font-size: 24rpx;
+		line-height: 40rpx;
+		text-indent:48rpx;
+	}
+	.uni-group--card{
+		margin: 0rpx;
+	}
+	.classify-title{
+		font-weight: bold;
+		font-size: 28rpx;	
+	    margin: 30rpx 0rpx 30rpx 0rpx;
+	}
+	.mine-flex-container{
+		display: flex;		
+		height: 50rpx;		
+		margin: 26rpx 0rpx;
+	}
+	.left_wap{
+		flex: 1;
+		
+	}
+	.right_wap{
+		flex: 1;
+	}
+	.title_broder{
+		border: 1rpx solid black;
+		width: auto;
+		padding: 10rpx 20rpx;
+	}
+	.title_black{
+		border: 1rpx solid black;
+		background-color: black;
+		color: #fff;		
+		padding: 10rpx 20rpx;
+		
+	}
+	.main_skill view{
+		line-height: 40rpx;
+	}
+	.main_job{
+		line-height: 40rpx;
+	}
+	.company_title{
+		font-weight: bold;
+		font-size: 28rpx;
+	}
+	.contact_way{
+		width: 100%;
+	}
+	.contact_item{
+		padding: 20rpx 20rpx 20rpx 0rpx;
+	}
+	.item_broder{
+		border: 1rpx solid black;
+		padding: 10rpx 20rpx;
+	}
+	.item_black{
+		border: 1rpx solid black;
+		background-color: black;
+		color: #fff;		
+		padding: 10rpx 20rpx;
+		
+	}
+	.coord{
+		width: 100%;
+		/* height: 300rpx; */
+	}
+	.name{
+		font-size: 38rpx;
+		font-weight: bold;
+	}
+	.job{
+		color: #eb9224;
+		text-shadow:2px 2px #fbe6ccc9;
+	}

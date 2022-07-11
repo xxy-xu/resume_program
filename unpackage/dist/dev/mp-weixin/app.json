@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/skill/skill",
+    "pages/project/project"
+  ],
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#E9301C",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "关于",
+        "iconPath": "static/menu/icon01.png",
+        "selectedIconPath": "static/menu/icon11.png"
+      },
+      {
+        "pagePath": "pages/skill/skill",
+        "text": "技能",
+        "iconPath": "static/menu/icon02.png",
+        "selectedIconPath": "static/menu/icon12.png"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "项目",
+        "iconPath": "static/menu/icon03.png",
+        "selectedIconPath": "static/menu/icon13.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

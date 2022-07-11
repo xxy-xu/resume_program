@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "徐献玉的小程序",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path": "pages/skill/skill",
+		    "style": {
+		        "navigationBarTitleText": "技能",
+		        "navigationStyle": "custom"
+		    }
+		},
+		{
+		    "path": "pages/project/project",
+		    "style": {
+		        "navigationBarTitleText": "项目",
+		        "navigationStyle": "custom"
+		    }
+		}
+	],
+	"tabBar": {
+	    "color": "#666",
+	    "selectedColor": "black",
+	    "backgroundColor": "#ffffff",
+	    "borderStyle": "black",
+	    "list": [{
+	        "pagePath": "pages/personal/personal",
+	        "text": "关于",
+	        "iconPath": "static/menu/icon1.png",
+	        "selectedIconPath": "static/menu/icon01.png"
+	    }, {
+	        "pagePath": "pages/skill/skill",
+	        "text": "技能",
+	        "iconPath": "static/menu/icon2.png",
+	        "selectedIconPath": "static/menu/icon02.png"
+	    }, {
+	        "pagePath": "pages/project/project",
+	        "text": "项目",
+	        "iconPath": "static/menu/icon3.png",
+	        "selectedIconPath": "static/menu/icon03.png"
+	    }]
+	},
+	
+	"permission": {
+	    "scope.userLocation": {
+	      "desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+	    }
+	  }
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
