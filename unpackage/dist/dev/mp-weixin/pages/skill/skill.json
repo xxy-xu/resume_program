@@ -1,5 +1,7 @@
 {
-  "navigationBarTitleText": "技能",
-  "navigationStyle": "custom",
-  "usingComponents": {}
+  "navigationBarTitleText": "专业技能",
+  "usingComponents": {
+    "uni-tag": "../../uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "uni-section": "../../components/uni-section/uni-section"
+  }
 }

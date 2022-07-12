@@ -1,6 +1,5 @@
 <template>
 	<view id="index-container">
-		<view class="status_bar"><!-- 这里是状态栏 --></view>
 		
 		<view class="headerData">
 				<view class="img">
@@ -30,10 +29,9 @@
 		
 		<view class="myData">
 			<uni-group mode="card">
-				<view  class="content_introduce"> 您好，我是徐献玉，一位五年工作经验的WEB前端开发工程师。曾就职于广东企数标普，
-			广东融亿鑫两家互联网金融贷款公司，主要负责公司产品的H5,PC端和移动端前端开发。</view>				
+				<view  class="content_introduce"> 您好，我是徐献玉，一名五年工作经验的WEB前端开发工程师，曾就职于广东企数标普，
+广东融亿鑫两家互联网金融信用贷款公司，主要负责公司官网、内部管理系统、公众号和APP等前端开发。</view>				
 			</uni-group>
-			
 			
 			<view class="classify-title">## 联系方式 </view>
 			<view class="mine_info">				
@@ -67,24 +65,25 @@
 			
 			<view class="classify-title">## 技能栈 </view>
 			<view class="main_skill">
-				<view>* 熟练使用HTML、CSS、JavaScript等前端技术，完成页面布局，开发兼容主流浏览器的页面，以及实现页面的交互，提升用户体验；</view>
-				<view>* 熟悉vueJs、AngularJs等主流框架MVC、MVVM框架；</view>
-				<view>* 熟练使用SVN、git版本控制工具，进行代码管理，实现敏捷开发；</view>
+				<view>* 熟练使用HTML、CSS、JavaScript等前端技术，完成页面布局，开发兼容主流浏览器的页面，以及实现页面的交互；；</view>
+				<view>* 熟悉VueJs、AngularJs等主流框架MVVM、MVC框架；</view>
+				<view>* 熟练使用Git、Svn版本管理工具以及webpack打包构建工具；</view>
 				<view>* 熟练使用jQuery框架，实现页面的交互效果，提高用户体验；</view>
 				<view>* 熟练使用Uni-App框架，编译到Android版、ios版、H5版、微信小程序版等多个平台；</view>
+				<view>* 熟悉Element-UI、Echars、Bootstrap、MUI等前端技术框架；</view>
 			</view>
 			
 			<view class="classify-title">## 工作经历 </view>
 			<view class="main_job">
 				<view class="company_title">*2020.09—2021.10 广东融亿鑫企业服务有限公司</view>
-				<view>+ 负责公司产品PC和移动端的前端开发，实现产品设计和开发需求，优化前端产品的用户体验以及后期对项目的维护；</view>
-				<view>+ 负责维护及优化前端页面执行性能和加载性能，确保正常运行；</view>
-				<view>+ 与后端开发人紧密合作，确保代码的有效对接优化前端性能；</view>
+				<view>+ 独立开发并完成公司运营产品的PC端、公众号和内部平台项目的开发以及维护；</view>
+				<view>+ 负责项目的前期沟通，需求讨论方面工作，选择合适的技术栈进行整体架构的搭建、开发过程中及时进行协调；</view>
+				<view>+ 与后端开发人紧密合作，完成产品的定期更新迭代，以及对前端项目的把控；</view>
 				<view class="empty"></view>
 				<view class="company_title">*2016.09—2020.08 广东企数标普互联网信息服务有限公司</view>
-				<view>+ 参与有数个项目的前端开发工作，协助部门成员完成Web+移动端网站的页面制作、JS效果；</view>
-				<view>+ 负责网页界面、移动端界面等Web产品的前端开发，配合后端开发人员共同完成项目与产品；</view>
-				<view>+ 负责相关软件的后台管理系统开发和维护；</view>
+				<view>+ 在职期间曾参与公司运营的数个项目的前端开发工作，协助部门成员完成官网、后台管理系统、公众号以及APP等项目的开发维护；</view>
+				<view>+ 根据项目需求开发项目前端页面，实现产品交互与数据逻辑展示，完成产品的定期更新迭代；</view>
+				<view>+ 使用Uni-App框架，进行编译并发布到Android版、ios版、公众号版等多个平台；</view>
 				<view>+ 负责部分Java后台接口与Oracle数据库相关开发；</view>
 				
 			</view>

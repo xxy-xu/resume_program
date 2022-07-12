@@ -1,6 +1,5 @@
 <template>
 	<view id="skill-container">
-		<view class="status_bar"><!-- 这里是状态栏 --></view>
 		
 		<view class="mySkill">
 						
@@ -122,7 +121,9 @@
 </script>
 
 <style lang="scss">
-
+	#skill-container{
+		font-size: 24rpx;
+	}
 	.example-body {
 		/* #ifndef APP-PLUS-NVUE */
 		display: flex;

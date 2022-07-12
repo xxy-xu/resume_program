@@ -1,35 +1,36 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/personal/personal",
     "pages/skill/skill",
     "pages/project/project"
   ],
   "tabBar": {
-    "color": "#333",
-    "selectedColor": "#E9301C",
+    "color": "#666",
+    "selectedColor": "#000",
     "backgroundColor": "#ffffff",
-    "borderStyle": "white",
+    "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/personal/personal",
         "text": "关于",
-        "iconPath": "static/menu/icon01.png",
-        "selectedIconPath": "static/menu/icon11.png"
+        "iconPath": "static/menu/icon1.png",
+        "selectedIconPath": "static/menu/icon01.png"
       },
       {
         "pagePath": "pages/skill/skill",
         "text": "技能",
-        "iconPath": "static/menu/icon02.png",
-        "selectedIconPath": "static/menu/icon12.png"
+        "iconPath": "static/menu/icon2.png",
+        "selectedIconPath": "static/menu/icon02.png"
       },
       {
         "pagePath": "pages/project/project",
         "text": "项目",
-        "iconPath": "static/menu/icon03.png",
-        "selectedIconPath": "static/menu/icon13.png"
+        "iconPath": "static/menu/icon3.png",
+        "selectedIconPath": "static/menu/icon03.png"
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "permission": {},
+  "usingComponents": {}
 }

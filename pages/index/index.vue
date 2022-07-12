@@ -1,6 +1,6 @@
 <template>
 	<view id="index-container">
-		<view class="status_bar"><!-- 这里是状态栏 --></view>
+		<!-- <view class="status_bar"></view> -->
 		
 		<view class="container">
 			
@@ -37,7 +37,7 @@
 					url: '../personal/personal'
 				});
 				
-			}, 3000);
+			}, 5000);
 		},
 		methods: {
 			

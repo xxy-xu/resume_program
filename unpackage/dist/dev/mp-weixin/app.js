@@ -4,6 +4,7 @@ exports[Symbol.toStringTag] = "Module";
 var common_vendor = require("./common/vendor.js");
 if (!Math) {
   "./pages/index/index.js";
+  "./pages/personal/personal.js";
   "./pages/skill/skill.js";
   "./pages/project/project.js";
 }
@@ -18,7 +19,7 @@ const _sfc_main = {
     console.log("App Hide");
   }
 };
-var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/HBuilderProjects/resume_program/App.vue"]]);
+var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "C:/Users/xxy/Desktop/resume_program/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
   return {
